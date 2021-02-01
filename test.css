@@ -84,9 +84,12 @@
 }
 #faders img{
     height:851px !important;
-    width:450px !important;
+    width:800px !important;
     position: absolute;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
